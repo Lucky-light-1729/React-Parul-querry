@@ -1,0 +1,58 @@
+CRA (Create-react-app)
+to create -> npx create-react-app .
+to run -> npm start
+
+standard naming rule:
+    lowercase char only
+    kebab-cases ->parul-impact-training
+    numbers allowed
+    nospaces
+    no special char
+
+in index.js
+    remove 14-17
+    remove 5 last import
+remove code in index.css
+
+remove code in app.css
+
+app.js
+in app function only keep
+return(
+    <div></div>
+);
+
+jsx->javascript Xml
+    allows t owrite html like js
+    babel converts React.getElement
+
+what is need of js
+without js                  | with js
+-----------------------------------------------------------
+relatively more complex     | relatively less complex
+create element/full syntax  | HTML structutre
+
+in jsx you can use variables function tenerary operator etc.
+
+Components in ReactJS
+we will make 1 Component at a time and during use we can call it multiple times
+how to call -><[componentName]/>
+types-
+    class based component-
+    functional component-
+
+Class base Component-
+    ES-6 Class 
+    Component
+    we only need to pass the file name where we import
+
+Functional Component-
+always start function name with capital leter
+    eg->function Myname(){
+        return (){
+            <>
+            <p>gf</p>
+            </>
+        }
+    }
+    export default Myname;

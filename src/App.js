@@ -1,5 +1,16 @@
 import './App.css';
-
+import Card from "./card.js";
+import New from "./new.js";
+import Fan from "./fan.js";
+function App() {
+  return (
+    <>
+      <New/>
+      <Fan/>
+    </>
+  );
+}
+/*
 function App() {
   return (
     <>
@@ -39,5 +50,5 @@ function App() {
     </>
   );
 }
-
+*/
 export default App;
